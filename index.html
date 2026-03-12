@@ -59,7 +59,7 @@ async function startPushes() {
   setTimeout(() => {
     amounts.forEach((amount, index) => {
       setTimeout(() => {
-        reg.showNotification("Monzo Bank from received a new", {
+        reg.showNotification("Monzo Bank", {
           body: `You received a new payment ${amount} FreeCash App`,
           icon: "icon.png"
         });
